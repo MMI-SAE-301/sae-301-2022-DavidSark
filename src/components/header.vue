@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="bg-noir-0">
-            <div class="hidden lg:flex justify-around bg-[url('/images/fond_grain.png')] space-x-12">
+        <div class="">
+            <div class="hidden lg:flex justify-around  space-x-12">
                 <div class="flex items-center py-5 px-2">
                     <p class="font-yeseva text-5xl mr-96 text-white">TiKTaK..</p>
                 </div>

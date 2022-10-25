@@ -6,6 +6,14 @@ module.exports = {
   theme: {
     extend: {
 
+      fontSize: {
+        '52-font': '520px'
+      },
+
+      width: {
+        '520': '520px'
+      },
+
       backgroundImage: {
         'grain': ["url('/images/fond_grain.png')"]
       },
@@ -18,6 +26,7 @@ module.exports = {
       colors: {
         'noir': ['#242424'],
         'jaune': ['#FFE400'],
+        'gris': ['#363636'],
       },
 
       borderWidth: {
