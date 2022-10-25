@@ -90,6 +90,25 @@ import headerVue from '@/components/header.vue';
         <div class="mt-40 mx-44 border-b-default border-white"></div>
 
 
+        <div class="mt-28">
+          <div class="flex justify-evenly ">
+            <img src="images/double_mk.png" />
+            <div>
+              <p class="text-white mt-28 font-bold font-inter text-3xl">Pas à votre goût</p>
+              <div class="text-2xl font-bold my-14 text-white">
+                <p>Vous pouvez personnaliser à volonté</p>
+                <p>la SmartWatch Serie P pour qu'elle </p>
+                <p>corresponde à vos goûts grâce à </p>
+                <p>l'interface de personnalisation !</p>
+              </div>
+              <button class="text-black font-inter text-2xl bg-jaune-0 py-2 px-10 rounded-full">
+                Interface de personnalisation
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-40 mx-44 border-b-default border-white"></div>
 
       </div>
     </div>
