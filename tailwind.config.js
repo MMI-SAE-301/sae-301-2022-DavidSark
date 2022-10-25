@@ -11,7 +11,8 @@ module.exports = {
       },
 
       width: {
-        '520': '520px'
+        '520': '520px',
+        '490': '490px'
       },
 
       backgroundImage: {
@@ -27,10 +28,15 @@ module.exports = {
         'noir': ['#242424'],
         'jaune': ['#FFE400'],
         'gris': ['#363636'],
+        'gris-foncé': ['#979797'],
       },
 
       borderWidth: {
         default: '1px'
+      },
+
+      screens: {
+        '1440': '1440px'
       }
     },
 

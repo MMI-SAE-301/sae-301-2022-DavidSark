@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import headerVue from '@/components/header.vue';
+import footerVue from '@/components/footer.vue';
 </script>
 
 <template>
@@ -10,7 +11,7 @@ import headerVue from '@/components/header.vue';
         <headerVue></headerVue>
 
         <div class="flex">
-          <div class=" mt-40 w-2/5 ">
+          <div class=" mt-40 w-2/5 lg:w-1/2 ">
             <div class="">
               <p class="text-white font-inter text-4xl ml-52">SmartWatch</p>
             </div>
@@ -20,7 +21,8 @@ import headerVue from '@/components/header.vue';
             </div>
 
             <div class="mt-4 pt-9">
-              <p class="text-white font-inter text-2xl ml-52">Découvrez la nouvelle gamme de montre connecté
+              <p class="text-white font-inter text-2xl lg:text-base ml-52">Découvrez la nouvelle gamme de montre
+                connecté
                 SmartWatch Serie P de TiKTaK..
                 Nouveau design, nouvelles fonctionnalités mais surtout
                 entiérement personnalisable selon vos envies !</p>
@@ -28,7 +30,8 @@ import headerVue from '@/components/header.vue';
 
             <div class="flex">
               <div class="mt-4 pt-20">
-                <button class="text-black font-inter text-2xl ml-52 bg-white py-2 px-10 rounded-full hover:bg-jaune-0">
+                <button
+                  class=" lg:text-lg text-black font-inter text-2xl ml-52 bg-white py-2 px-10 rounded-full hover:bg-jaune-0">
                   Personnaliser
                 </button>
               </div>
@@ -109,6 +112,8 @@ import headerVue from '@/components/header.vue';
         </div>
 
         <div class="mt-40 mx-44 border-b-default border-white"></div>
+
+        <footerVue></footerVue>
 
       </div>
     </div>
