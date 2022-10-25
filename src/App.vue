@@ -44,6 +44,51 @@ import headerVue from '@/components/header.vue';
         <div class="mt-40 mx-44 border-b-default border-white"></div>
 
 
+        <div class="flex justify-evenly">
+          <div class="mt-28">
+            <img src="images/montre_noir.png" />
+            <div class="text-center mt-12">
+              <p class="text-jaune-0 font-medium text-xl">Nouveauté</p>
+              <p class="font-bold text-2xl text-white mt-2">Boîtier en aluminium noir,</p>
+              <p class="font-bold text-2xl text-white">stellaire, boucle sport</p>
+              <p class="font-thin text-xl text-white my-3">À partir de 299€</p>
+              <button class="text-black font-inter text-2xl bg-jaune-0 py-2 px-10 rounded-full">
+                Personnaliser
+              </button>
+            </div>
+          </div>
+
+          <div class="mt-28">
+            <img src="images/montre_rouge.png" />
+            <div class="text-center mt-12">
+              <p class="text-jaune-0 font-medium text-xl">Nouveauté</p>
+              <p class="font-bold text-2xl text-white mt-2">Boîtier en aluminium noir,</p>
+              <p class="font-bold text-2xl text-white">stellaire, boucle sport</p>
+              <p class="font-thin text-xl text-white my-3">À partir de 299€</p>
+              <button class="text-black font-inter text-2xl bg-jaune-0 py-2 px-10 rounded-full">
+                Personnaliser
+              </button>
+            </div>
+          </div>
+
+          <div class="mt-28">
+            <img src="images/montre_jaune.png" />
+            <div class="text-center mt-12">
+              <p class="text-jaune-0 font-medium text-xl">Nouveauté</p>
+              <p class="font-bold text-2xl text-white mt-2">Boîtier en aluminium noir,</p>
+              <p class="font-bold text-2xl text-white">stellaire, boucle sport</p>
+              <p class="font-thin text-xl text-white my-3">À partir de 299€</p>
+              <button class="text-black font-inter text-2xl bg-jaune-0 py-2 px-10 rounded-full">
+                Personnaliser
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="mt-40 mx-44 border-b-default border-white"></div>
+
 
 
       </div>
