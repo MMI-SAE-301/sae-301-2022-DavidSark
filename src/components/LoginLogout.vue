@@ -5,11 +5,16 @@ import footerVue from './footer.vue';
 <template>
     <div>
         <div class="lg:flex lg:justify-evenly">
-            <div class="flex flex-col items-center lg:mt-40" v-if="user">
+            <div class="flex flex-col items-center lg:mt-40">
                 <div class="my-12">
-
+                    <div class="text-white text-center lg:text-4xl" v-if="user">
+                        <p class="my-4 lg:text-4xl">Vous êtes actuellement connecté.</p>
+                        <p class="mb-4 lg:text-4xl">N'hésitez pas à personnsalier un <RouterLink
+                                class="border-b-jaune-0 border-b" to="personnalisationview">produit</RouterLink>
+                        </p>
+                    </div>
                     <button class="text-white" v-if="user" @pointerdown="supabase.auth.signOut()">
-                        <p>Vous êtes connecté avec l'adresse suivant : {{ user.email }}</p>
+                        <p class="mb-12 lg:text-4xl">Vous êtes connecté avec l'adresse suivant : {{ user.email }}</p>
                         Se déconnecter
                     </button>
                     <button class="flex gap-3 items-center text-white font-inter rounded-full px-4 py-2
