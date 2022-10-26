@@ -10,7 +10,7 @@
                 </div>
             </div>
 
-            <div class="w-96 font-inter shrink-0 max-lg:hidden 2xl:ml-40">
+            <div class="w-96 font-inter shrink-0 max-lg:hidden 2xl:ml-40 hidden lg:block">
                 <p class="text-3xl my-4 text-white">À propos</p>
                 <p class="text-xl leading-relaxed text-gris-foncé-0 w-full">Lorem ipsum dolor sit amet,
                     consectetur

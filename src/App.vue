@@ -5,12 +5,42 @@ import footerVue from '@/components/footer.vue';
 
 <template>
   <div>
-    <div class="bg-noir-0 h-screen overflow-y ">
+    <div class="bg-noir-0 h-screen ">
 
       <div class="bg-[url('/images/fond_grain.png')] h-screen ">
         <headerVue class="mt-10"></headerVue>
 
-        <div class="flex">
+
+        <div class="flex flex-col lg:flex-row-reverse items-center justify-center">
+
+
+          <div class="w-3/4 items-center lg:mr-12">
+            <img src="images/mk_accueil.png" />
+          </div>
+          <div class="lg:flex lg:flex-col lg:items-start">
+            <div class="my-4 lg:ml-8">
+              <p class="text-white font-inter text-center text-4xl">SmartWatch</p>
+            </div>
+
+            <div class="lg:ml-8">
+              <p class="text-white font-inter text-center text-3xl">Serie P</p>
+            </div>
+
+            <div class="mx-8 mt-4 lg:w-9/12">
+              <p class="text-white shrink-0 inline-block font-inter ">
+                Découvrez la nouvelle gamme de montre
+                connecté
+                SmartWatch Serie P de TiKTaK..
+                Nouveau design, nouvelles fonctionnalités mais surtout
+                entiérement personnalisable selon vos envies !</p>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <!-- <div class="flex">
           <div class=" mt-40 w-2/5 lg:w-1/2 ">
             <div class="">
               <p class="text-white font-inter text-4xl ml-52">SmartWatch</p>
@@ -120,7 +150,7 @@ import footerVue from '@/components/footer.vue';
 
         <div class="flex justify-center">
           <div class="mt-40 w-4/5 border-b-default border-white"></div>
-        </div>
+        </div> -->
 
         <footerVue></footerVue>
 
