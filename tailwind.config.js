@@ -12,7 +12,13 @@ module.exports = {
 
       width: {
         '520': '520px',
-        '490': '490px'
+        '490': '490px',
+        '470': '470px'
+      },
+
+      height: {
+        '623': '623px',
+        '470': '470px',
       },
 
       backgroundImage: {
@@ -29,6 +35,8 @@ module.exports = {
         'jaune': ['#FFE400'],
         'gris': ['#363636'],
         'gris-foncé': ['#979797'],
+        'rouge': ['#CD201F'],
+        'bleu': ['#3B5999'],
       },
 
       borderWidth: {
