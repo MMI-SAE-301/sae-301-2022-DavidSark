@@ -25,7 +25,7 @@ const menuVisible = ref(true);
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="text-white no-underline hover:text-jaune-0" to="/">
+                    <router-link class="text-white no-underline hover:text-jaune-0" to="/produitview">
                         <p class="text-inter">Nouveauté</p>
                     </router-link>
                 </li>
@@ -35,12 +35,12 @@ const menuVisible = ref(true);
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="text-white no-underline hover:text-jaune-0" to="/">
+                    <router-link class="text-white no-underline hover:text-jaune-0" to="/personnalisationview">
                         <p class="text-inter">Vos montres</p>
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="text-white no-underline hover:text-jaune-0" to="/">
+                    <router-link class="text-white no-underline hover:text-jaune-0" to="/produitview">
                         <p class="text-inter">Promotions</p>
                     </router-link>
                 </li>
@@ -61,19 +61,19 @@ const menuVisible = ref(true);
                 </div>
 
                 <div class=" hidden text-white lg:flex items-center space-x-6">
-                    <router-link class=" no-underline" to="/">
+                    <router-link class=" no-underline" to="/produitview">
                         <p class="font-inter hover:border-b-default border-b-white ">Nouveauté</p>
                     </router-link>
                     <router-link class="text-white no-underline" to="/personnalisationview">
                         <p class="font-inter hover:border-b-default border-b-white">Personnalisation</p>
                     </router-link>
-                    <router-link class="text-white shrink-0 no-underline" to="/liste">
+                    <router-link class="text-white shrink-0 no-underline" to="/personnalisationview">
                         <p class="font-inter hover:border-b-default  border-b-white">Vos montres</p>
                     </router-link>
-                    <router-link class="text-white  no-underline" to="/liste-fetch">
+                    <router-link class="text-white  no-underline" to="/produitview">
                         <p class="font-inter hover:border-b-default border-b-white">Promotions</p>
                     </router-link>
-                    <router-link class="text-white  no-underline" to="/liste-fetch">
+                    <router-link class="text-white  no-underline" to="/">
                         <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M28.7158 28.875V26.125C28.7158 24.6663 28.1286 23.2674 27.0833 22.2359C26.038 21.2045 24.6203 20.625 23.1421 20.625H11.9946C10.5164 20.625 9.09868 21.2045 8.0534 22.2359C7.00813 23.2674 6.4209 24.6663 6.4209 26.125V28.875"

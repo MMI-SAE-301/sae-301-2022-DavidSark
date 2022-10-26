@@ -15,7 +15,6 @@ import footerVue from '@/components/footer.vue';
 
                 <div class="flex flex-col lg:flex-row-reverse items-center justify-center 1440:mx-40 ">
 
-
                     <div class=" items-center  lg:mr-12  ">
                         <img class="w-520 px-4 lg:px-0" src="images/mk_accueil.png" />
                     </div>
