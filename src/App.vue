@@ -34,6 +34,13 @@ import footerVue from '@/components/footer.vue';
                 Nouveau design, nouvelles fonctionnalités mais surtout
                 entiérement personnalisable selon vos envies !</p>
             </div>
+
+            <div class="text-center mt-6">
+              <button
+                class=" lg:text-lg lg:ml-8 text-black font-inter text-sm bg-white py-1 px-8 rounded-full hover:bg-jaune-0">
+                Personnaliser
+              </button>
+            </div>
           </div>
 
 
