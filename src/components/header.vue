@@ -13,8 +13,8 @@
                     <router-link class="text-white no-underline" to="/connexion">
                         <code class="font-inter hover:border-b-default border-b-white">Personnalisation</code>
                     </router-link>
-                    <router-link class="text-white  no-underline" to="/liste">
-                        <code class="font-inter hover:border-b-default border-b-white">Vos montres</code>
+                    <router-link class="text-white shrink-0 no-underline" to="/liste">
+                        <code class="font-inter hover:border-b-default  border-b-white">Vos montres</code>
                     </router-link>
                     <router-link class="text-white  no-underline" to="/liste-fetch">
                         <code class="font-inter hover:border-b-default border-b-white">Promotions</code>
