@@ -2,6 +2,7 @@
 import headerVue from '../components/header.vue';
 import footerVue from '@/components/footer.vue';
 import montreSvgVue from '@/components/montreSvg.vue';
+import FormMontreVue from '@/components/FormMontre.vue';
 </script>
 
 <template>
@@ -9,33 +10,27 @@ import montreSvgVue from '@/components/montreSvg.vue';
         <div class="bg-[url('/images/fond_grain.png')] h-screen ">
             <headerVue class=""></headerVue>
 
-            <div>
-                <p class="text-center text-white text-3xl">Prévisualisation :</p>
-            </div>
 
-            <div class="flex justify-center ">
-                <div>
-                    <montreSvgVue class="w-60"></montreSvgVue>
-                </div>
-            </div>
 
             <div class="">
                 <p class="text-center font-inter text-white text-xl">Bienvenue sur l'interface de personnalisation</p>
                 <p class="text-center font-inter text-white text-md mt-4">Choississez une partie et une couleur à
                     modifier</p>
             </div>
-            <!-- 
-            <FormKit>
-               Ajouter les inputs 
-            </FormKit>
-            -->
 
-            <div class="flex justify-center">
+            <div class="flex justify-center ">
+
+                <div>
+                    <FormMontreVue></FormMontreVue>
+                </div>
+            </div>
+
+            <!-- <div class="flex justify-center">
                 <button
                     class=" mt-4 text-black lg:text-2xl lg:mt-12 font-inter text-base bg-jaune-0 py-1 px-8 rounded-full ">
                     Enregistrer
                 </button>
-            </div>
+            </div> -->
 
 
             <div class="flex justify-center">

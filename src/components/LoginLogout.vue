@@ -5,7 +5,7 @@ import footerVue from './footer.vue';
 <template>
     <div>
         <div class="lg:flex lg:justify-evenly">
-            <div class="flex flex-col items-center lg:mt-40">
+            <div class="flex flex-col items-center lg:mt-40" v-if="user">
                 <div class="my-12">
 
                     <button class="text-white" v-if="user" @pointerdown="supabase.auth.signOut()">
@@ -29,7 +29,7 @@ import footerVue from './footer.vue';
                 </div>
             </div>
 
-            <div class="hidden lg:block lg:mt-9">
+            <div class="hidden lg:block lg:mt-9" v-if="!user">
                 <div class="w-96 bg-jaune-0 h-470 rounded-xl">
                     <div class="flex justify-center">
                         <img class="w-44 mt-9" src="../../public/images/tk.png" />
