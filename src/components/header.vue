@@ -30,7 +30,7 @@ const menuVisible = ref(true);
                     </router-link>
                 </li>
                 <li>
-                    <router-link class="text-white no-underline hover:text-jaune-0" to="/">
+                    <router-link class="text-white no-underline hover:text-jaune-0" to="/personnalisationview">
                         <p class="text-inter">Personnalisation</p>
                     </router-link>
                 </li>
@@ -64,7 +64,7 @@ const menuVisible = ref(true);
                     <router-link class=" no-underline" to="/">
                         <p class="font-inter hover:border-b-default border-b-white ">Nouveauté</p>
                     </router-link>
-                    <router-link class="text-white no-underline" to="/connexion">
+                    <router-link class="text-white no-underline" to="/personnalisationview">
                         <p class="font-inter hover:border-b-default border-b-white">Personnalisation</p>
                     </router-link>
                     <router-link class="text-white shrink-0 no-underline" to="/liste">
