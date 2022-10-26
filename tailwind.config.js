@@ -39,8 +39,12 @@ module.exports = {
         '320': '320px',
         '1100': '1100px',
         '1440': '1440px',
+      },
+      lineHeight: {
+        'extra-loose': '4'
       }
     },
+
 
   },
   plugins: [

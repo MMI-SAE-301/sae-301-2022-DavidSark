@@ -8,7 +8,7 @@ import footerVue from '@/components/footer.vue';
     <div class="bg-noir-0 h-screen ">
 
       <div class="bg-[url('/images/fond_grain.png')] h-screen ">
-        <headerVue class="mt-10"></headerVue>
+        <headerVue class=""></headerVue>
 
 
         <div class="flex flex-col lg:flex-row-reverse items-center justify-center 1440:mx-40 ">
