@@ -66,7 +66,7 @@ async function upsertMontre(dataForm, node) {
                     </template>
 
                 </FormKit> -->
-                <p class="text-white text-xs">Une fois commander,<br /> la modification n'est plus possible</p>
+                <p class="text-white text-xs">Une fois commandé,<br /> la modification n'est plus possible</p>
             </FormKit>
         </div>
     </div>
