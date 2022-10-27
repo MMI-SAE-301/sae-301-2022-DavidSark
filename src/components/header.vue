@@ -57,7 +57,7 @@ const menuVisible = ref(true);
         <div class="mx-8">
             <div class="hidden lg:flex justify-between my-12 ">
                 <div class="flex items-center ">
-                    <p class="font-yeseva text-5xl text-white">TiKTaK..</p>
+                    <RouterLink class=" font-yeseva text-5xl text-white" to="/">TiKTaK..</RouterLink>
                 </div>
 
                 <div class=" hidden text-white lg:flex items-center space-x-6">

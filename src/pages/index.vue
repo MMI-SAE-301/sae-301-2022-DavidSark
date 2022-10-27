@@ -39,7 +39,7 @@ import footerVue from '@/components/footer.vue';
                         <div class="text-center mt-6">
                             <button
                                 class=" lg:text-lg lg:ml-8 text-black font-inter text-sm bg-white py-1 px-8 rounded-full hover:bg-jaune-0">
-                                Personnaliser
+                                <RouterLink to="personnalisationview">Personnaliser</RouterLink>
                             </button>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ import footerVue from '@/components/footer.vue';
                             <p class="font-bold text-xl text-white lg:text-xl">stellaire, boucle sport</p>
                             <p class="font-thin text-sm text-white my-3">À partir de 299€</p>
                             <button class="text-black font-inter text-xl bg-jaune-0 py-1 px-8 rounded-full">
-                                Personnaliser
+                                <RouterLink to="personnalisationview">Personnaliser</RouterLink>
                             </button>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ import footerVue from '@/components/footer.vue';
                             <p class="font-bold text-xl text-white lg:text-xl">stellaire, boucle sport</p>
                             <p class="font-thin text-sm text-white my-3">À partir de 299€</p>
                             <button class="text-black font-inter text-xl bg-jaune-0 py-1 px-8 rounded-full">
-                                Personnaliser
+                                <RouterLink to="personnalisationview">Personnaliser</RouterLink>
                             </button>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ import footerVue from '@/components/footer.vue';
                             <p class="font-bold text-xl text-white lg:text-xl">stellaire, boucle sport</p>
                             <p class="font-thin text-sm text-white my-3">À partir de 299€</p>
                             <button class="text-black font-inter text-xl bg-jaune-0 py-1 px-8 rounded-full">
-                                Personnaliser
+                                <RouterLink to="personnalisationview">Personnaliser</RouterLink>
                             </button>
                         </div>
                     </div>
@@ -131,7 +131,7 @@ import footerVue from '@/components/footer.vue';
                         <div class="flex justify-center">
                             <button
                                 class=" mt-4 text-black lg:text-2xl lg:mt-12 font-inter text-base bg-jaune-0 py-1 px-8 rounded-full ">
-                                Interface de personnalisation
+                                <RouterLink to="personnalisationview">Interface de personnalisation</RouterLink>
                             </button>
                         </div>
                     </div>

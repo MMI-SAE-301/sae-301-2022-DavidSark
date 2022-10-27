@@ -3,12 +3,14 @@ import { ref } from "vue";
 import { supabase, } from "@/supabase";
 import { useRouter } from "vue-router";
 import MontreVue from '@/components/montreSvg.vue';
-import { type montreParams } from "@/types-svg";
+import type { montreParams } from "@/types-svg";
 import FormKitListColors from "@/components/FormKitListColors.vue"
 import { materiaux } from "@/types-svg"
 
 const router = useRouter();
 let user = supabase.auth.user()
+
+// @ts-ignore
 const montre = ref<montreParams>(props.data ?? {});
 
 const props = defineProps(["id"]);
@@ -20,7 +22,7 @@ if (props.id) {
     if (error) console.log("n'a pas pu charger le table montre :", error);
     else montre.value = (data as any[])[0];
 }
-
+// @ts-ignore
 async function upsertMontre(dataForm, node) {
     const { data, error } = await supabase.from("montre").upsert(dataForm);
     if (error || !data) {
@@ -52,7 +54,7 @@ async function upsertMontre(dataForm, node) {
                 <FormKitListColors name="ecran" label="Sélectionnez un couleur pour l'écran" />
 
 
-                <!-- <FormKit name="id_materiaux" label="Materiau du boitier" type="radio" value="" :options="materiaux"
+                <FormKit name="id_materiaux" label="Materiaux" type="radio" value="" :options="materiaux"
                     :sections-schema="{
                         inner: { $el: null },
                         decorator: { $el: null },
@@ -62,10 +64,10 @@ async function upsertMontre(dataForm, node) {
                     <template #label="context">
                         <img class="h-20 w-20 rounded border-tertiaire_fonce border-2 peer-checked:border-jaune-0 "
                             :src="context.option.image" :alt="context.option.label">
-                        <span>{{ context.option.label }}</span>
+                        <span class="text-white">{{ context.option.label }}</span>
                     </template>
 
-                </FormKit> -->
+                </FormKit>
                 <p class="text-white text-xs">Une fois commandé,<br /> la modification n'est plus possible</p>
             </FormKit>
         </div>

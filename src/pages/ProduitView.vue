@@ -50,7 +50,7 @@ import montreSvgVue from '@/components/montreSvg.vue';
 
                                 <button
                                     class=" mt-4 text-black lg:h-fit font-inter text-base bg-jaune-0 py-1 px-8 rounded-full ">
-                                    Personnaliser
+                                    <RouterLink to="/personnalisationview">Personnaliser</RouterLink>
                                 </button>
 
                             </div>
@@ -117,7 +117,7 @@ import montreSvgVue from '@/components/montreSvg.vue';
                                         <p class="font-bold text-xl text-white lg:text-xl">stellaire, boucle sport</p>
                                         <p class="font-thin text-sm text-white my-3">À partir de 299€</p>
                                         <button class="text-black font-inter text-xl bg-jaune-0 py-1 px-8 rounded-full">
-                                            Personnaliser
+                                            <RouterLink to="personnalisationview">Personnaliser</RouterLink>
                                         </button>
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@ import montreSvgVue from '@/components/montreSvg.vue';
                                             <p class="font-thin text-sm text-white my-3">À partir de 299€</p>
                                             <button
                                                 class="text-black font-inter text-xl bg-jaune-0 py-1 px-8 rounded-full">
-                                                Personnaliser
+                                                <RouterLink to="personnalisationview">Personnaliser</RouterLink>
                                             </button>
                                         </div>
                                     </div>
