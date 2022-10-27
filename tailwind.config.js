@@ -50,7 +50,11 @@ module.exports = {
       },
       lineHeight: {
         'extra-loose': '4'
-      }
+      },
+
+      screens: {
+        'light': { 'raw': '(prefers-color-scheme: light)' },
+      },
     },
 
 
