@@ -3,7 +3,8 @@
 - **Nom :Sarkissian**
 - **Prénom :David**
 - **URL maquette Figma:https://www.figma.com/file/SLRPUdniqdeH1Chu4z5UcV/SAE-301---Maquette?node-id=0%3A1**
-- **URL publique du site :**
+- **URL publique du site :https://dsarksae301.netlify.app/ **
+- **URL publique du site -> heroku : https://dsarksae301.herokuapp.com/ **
 - **URL projet Supabase :https://olzgqcmdhzribtkahvlj.supabase.co**
   - [x] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
 
