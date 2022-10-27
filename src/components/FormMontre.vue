@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { supabase, user } from "@/supabase";
+import { supabase, } from "@/supabase";
 import { useRouter } from "vue-router";
 import MontreVue from '@/components/montreSvg.vue';
 import { type montreParams } from "@/types-svg";
@@ -8,7 +8,7 @@ import FormKitListColors from "@/components/FormKitListColors.vue"
 import { materiaux } from "@/types-svg"
 
 const router = useRouter();
-
+let user = supabase.auth.user()
 const montre = ref<montreParams>(props.data ?? {});
 
 const props = defineProps(["id"]);
@@ -46,6 +46,7 @@ async function upsertMontre(dataForm, node) {
                     label: `text-white`
                 }
             }">
+                <FormKit name="id_users" label="id users" type="text" :value="user.id" outer-class="hidden" />
                 <FormKitListColors name="bracelet" label="Sélectionnez un couleur pour le bracelet" />
                 <FormKitListColors name="boitier" label="Sélectionnez un couleur pour le boitier" />
                 <FormKitListColors name="ecran" label="Sélectionnez un couleur pour l'écran" />
