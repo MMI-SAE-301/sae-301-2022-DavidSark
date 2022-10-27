@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import headerVue from '../components/header.vue';
+import headerVue from '@/components/header.vue';
 import footerVue from '@/components/footer.vue';
-import montreSvgVue from '@/components/montreSvg.vue';
 import FormMontreVue from '@/components/FormMontre.vue';
-import { supabase, user } from '../supabase';
+import { user } from '@/supabase';
+import ListeView from '@/pages/ListeView.vue';
 </script>
 
 <template>
@@ -45,10 +45,13 @@ import { supabase, user } from '../supabase';
 
                 <div class="">
                     <div class="text-center text-white text-xl my-4">
-                        <p>Vos montres</p>
+                        <p class="text-2xl">Vos montres</p>
+                    </div>
+                    <div>
+                        <ListeView></ListeView>
                     </div>
 
-                    <div class="lg:flex lg:justify-evenly mb-6">
+                    <!-- <div class="lg:flex lg:justify-evenly mb-6">
                         <div class="">
                             <div class="flex justify-center">
                                 <div class="w-40 md:w-60">
@@ -66,7 +69,7 @@ import { supabase, user } from '../supabase';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 

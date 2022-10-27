@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import { supabase, user } from "../supabase";
+import { supabase, user } from "@/supabase";
 import { useRouter } from "vue-router";
-import MontreVue from '../components/montreSvg.vue';
+import MontreVue from '@/components/montreSvg.vue';
 import { type montreParams } from "@/types-svg";
 import FormKitListColors from "@/components/FormKitListColors.vue"
 import { materiaux } from "@/types-svg"
@@ -28,7 +28,7 @@ async function upsertMontre(dataForm, node) {
     }
     else {
         node.setErrors([]);
-        router.push("/");
+        router.push('/');
     }
 };
 
@@ -51,7 +51,7 @@ async function upsertMontre(dataForm, node) {
                 <FormKitListColors name="ecran" label="Sélectionnez un couleur pour l'écran" />
 
 
-                <FormKit name="id_materiaux" label="Materiau du boitier" type="radio" value="" :options="materiaux"
+                <!-- <FormKit name="id_materiaux" label="Materiau du boitier" type="radio" value="" :options="materiaux"
                     :sections-schema="{
                         inner: { $el: null },
                         decorator: { $el: null },
@@ -64,7 +64,7 @@ async function upsertMontre(dataForm, node) {
                         <span>{{ context.option.label }}</span>
                     </template>
 
-                </FormKit>
+                </FormKit> -->
                 <p class="text-white text-xs">Une fois commander,<br /> la modification n'est plus possible</p>
             </FormKit>
         </div>
