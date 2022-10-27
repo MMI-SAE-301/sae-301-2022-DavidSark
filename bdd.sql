@@ -27,10 +27,37 @@ CREATE VIEW "allMontre" as
 SELECT *
 FROM "montre";
 
+
+create view allAcier as 
+select "montre".*
+from "materiaux", "montre" 
+where "materiaux".id_materiaux = "montre".id_materiaux 
+and "materiaux"."libelle" = 'Acier';  
+
+create view allBois as 
+select "montre".*
+from "materiaux", "montre" 
+where "materiaux".id_materiaux = "montre".id_materiaux 
+and "materiaux"."libelle" = 'Bois'; 
+
+create view allLaiton as 
+select "montre".*
+from "materiaux", "montre" 
+where "materiaux".id_materiaux = "montre".id_materiaux 
+and "materiaux"."libelle" = 'Laiton'; 
+*/
+
 */
 
 
 
 --
 -- code pour la création des policies
+
+/*
+ALTER POLICY "Enable insert for authenticated users only" ON "public"."montre" TO authenticated;
+ 
+ALTER POLICY "Enable update for users based on email" ON "public"."montre" USING ((uid() = id_users));
+
+*/
 --

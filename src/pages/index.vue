@@ -31,7 +31,7 @@ import footerVue from '@/components/footer.vue';
 
                         <div class="mx-8 mt-4 lg:w-9/12">
                             <p
-                                class="light:text-blacktext-white shrink-0 inline-block text-sm lg:text-base font-inter ">
+                                class="light:text-black text-white shrink-0 inline-block text-sm lg:text-base font-inter ">
                                 Découvrez la nouvelle gamme de montre
                                 connecté
                                 SmartWatch Serie P de TiKTaK..
