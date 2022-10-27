@@ -7,7 +7,7 @@ const menuVisible = ref(true);
     <div>
         <!-- Menu responsive -->
 
-        <div class="overflow-y-hidden bg-[url('../assets/images/fond_grain.png')]  h-full w-screen fixed "
+        <div class="overflow-y-hidden bg-[url('assets/images/fond_grain.png')]  h-full w-screen fixed "
             :class="{ hidden: menuVisible }">
             <div class="flex justify-end mt-4">
                 <button v-if="!menuVisible" v-on:click="menuVisible = !menuVisible" class="mx-4">
