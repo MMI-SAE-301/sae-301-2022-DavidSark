@@ -19,7 +19,7 @@ import footerVue from './footer.vue';
                     </button>
                     <button class="flex gap-3 items-center text-white font-inter rounded-full px-4 py-2
         bg-rouge-0" v-else @pointerdown="supabase.auth.signIn({ provider: 'google' })">
-                        <span><img src="../../public/images/google.png"></span>Google
+                        <span><img src="/images/google.png"></span>Google
                     </button>
                 </div>
 
@@ -29,7 +29,7 @@ import footerVue from './footer.vue';
                     </button>
                     <button class="flex gap-3 items-center text-white font-inter rounded-full px-4 py-2
         bg-bleu-0" v-else @pointerdown="supabase.auth.signIn({ provider: 'facebook' })">
-                        <span><img src="../../public/images/facebook.png"></span>Facebook
+                        <span><img src="/images/facebook.png"></span>Facebook
                     </button>
                 </div>
             </div>
@@ -37,7 +37,7 @@ import footerVue from './footer.vue';
             <div class="hidden lg:block lg:mt-9" v-if="!user">
                 <div class="w-96 bg-jaune-0 h-470 rounded-xl">
                     <div class="flex justify-center">
-                        <img class="w-44 mt-9" src="../../public/images/tk.png" />
+                        <img class="w-44 mt-9" src="/images/tk.png" />
                     </div>
                     <div class="">
                         <p class="text-black font-inter font-semibold text-center mt-4">Lorem ipsum dolor</p>

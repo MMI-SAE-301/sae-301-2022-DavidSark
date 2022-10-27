@@ -47,7 +47,7 @@ const menuVisible = ref(true);
                 <li>
                     <div class="flex justify-center">
                         <router-link class="text-white no-underline hover:text-jaune-0" to="/loginlogoutview">
-                            <img src="../../public/images/user.svg" />
+                            <img src="/images/user.svg" />
                         </router-link>
                     </div>
                 </li>
