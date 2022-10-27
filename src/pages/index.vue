@@ -10,14 +10,14 @@ import footerVue from '@/components/footer.vue';
         <div class="bg-noir-0 h-screen ">
 
             <div
-                class="bg-[url('assets/images/fond_grain.png')] light:bg-[url('assets/images/fond_blanc.png')] h-screen ">
+                class="bg-[url('assets/images/fond_grain.png')] light:bg-[url('../assets/images/fond_blanc.png')] h-screen ">
                 <headerVue class=""></headerVue>
 
 
                 <div class="flex flex-col lg:flex-row-reverse items-center justify-center 1440:mx-40 ">
 
                     <div class=" items-center  lg:mr-12  ">
-                        <img class="w-520 px-4 lg:px-0" src="assets/images/mk_accueil.png" />
+                        <img class="w-520 px-4 lg:px-0" src="../assets/images/mk_accueil.png" />
                     </div>
                     <div class="lg:flex lg:flex-col lg:items-start  1440:text-xl 1440:w-4/5 light:text-black">
                         <div class="my-4 lg:ml-8 ">
@@ -59,7 +59,7 @@ import footerVue from '@/components/footer.vue';
                     <div class="">
                         <div class="flex justify-center">
                             <div class="w-40 md:w-60">
-                                <img class="" src="assets/images/montre_noir.png" />
+                                <img class="" src="../assets/images/montre_noir.png" />
                             </div>
                         </div>
 
@@ -77,7 +77,7 @@ import footerVue from '@/components/footer.vue';
                     <div class="mt-12 lg:m-0">
                         <div class="flex justify-center">
                             <div class="w-40 md:w-60">
-                                <img src="assets/images/montre_rouge.png" />
+                                <img src="../assets/images/montre_rouge.png" />
                             </div>
                         </div>
 
@@ -95,7 +95,7 @@ import footerVue from '@/components/footer.vue';
                     <div class="mt-12 lg:m-0">
                         <div class=" flex justify-center">
                             <div class="w-40 md:w-60">
-                                <img src="assets/images/montre_jaune.png" />
+                                <img src="../assets/images/montre_jaune.png" />
                             </div>
                         </div>
 
@@ -120,7 +120,7 @@ import footerVue from '@/components/footer.vue';
                 <div class="lg:flex lg:justify-center ">
                     <div class="flex justify-center">
                         <div class="w-64 mb-12 md:w-490">
-                            <img class="" src="assets/images/double_mk.png" />
+                            <img class="" src="../assets/images/double_mk.png" />
                         </div>
                     </div>
 

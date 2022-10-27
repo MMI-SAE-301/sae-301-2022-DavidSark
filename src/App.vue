@@ -14,6 +14,6 @@
 <style>
 body {
   overflow-x: hidden;
-  background-image: url('images/fond_grain.png');
+  background-image: url('assets/images/fond_grain.png');
 }
 </style>
