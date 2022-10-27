@@ -47,7 +47,7 @@ async function upsertMontre(dataForm, node) {
                     label: `text-white`
                 }
             }">
-                <FormKit name="id_users" label="id users" type="text" :value="user.id" outer-class="hidden" />
+
                 <FormKitListColors name="bracelet" label="Sélectionnez un couleur pour le bracelet" />
                 <FormKitListColors name="boitier" label="Sélectionnez un couleur pour le boitier" />
                 <FormKitListColors name="ecran" label="Sélectionnez un couleur pour l'écran" />
