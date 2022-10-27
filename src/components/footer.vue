@@ -5,8 +5,8 @@
             <div>
                 <div>
                     <p class="font-yeseva text-white text-5xl">TiKTaK..</p>
-                    <img class="mt-7" src="/images/trustpilot.png" />
-                    <img class="my-10" src="/images/reseaux.png" />
+                    <img class="mt-7" src="assets//images/trustpilot.png" />
+                    <img class="my-10" src="assets//images/reseaux.png" />
                 </div>
             </div>
 

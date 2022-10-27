@@ -35,7 +35,12 @@ Noté sur 40.
   - lien vers sa définition
   - lien vers son usage
 - [x] Composants graphiques (0-1-2pts)
-  - liens
+  - liens des composants : src/components/footer.vue
+                           src/components/FormKitListColors.vue
+                           src/components/FormMontre.vue
+                           src/components/header.vue
+                           src/components/LoginLogout
+                           src/components/montreSvg
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))

@@ -7,13 +7,13 @@ import montreSvgVue from '@/components/montreSvg.vue';
 <template>
 
     <div>
-        <div class="bg-[url('/images/fond_grain.png')] h-screen">
+        <div class="bg-[url('assets/images/fond_grain.png')] h-screen">
 
             <headerVue></headerVue>
 
             <div>
                 <div class="flex flex-col items-center justify-center lg:flex-row mt-20 lg:mt-36">
-                    <img class="w-40 md:w-60 lg:mr-10 lg:w-96  " src="../../public/images/montre_rouge.png" />
+                    <img class="w-40 md:w-60 lg:mr-10 lg:w-96  " src="assets/images/montre_rouge.png" />
 
                     <div class="">
 
@@ -67,20 +67,20 @@ import montreSvgVue from '@/components/montreSvg.vue';
                             <div class="text-white mt-12  ">
 
                                 <div class="flex mx-3 mt-7 mb-4 lg: lg:m-0">
-                                    <img src=" ../../public/images/truck.svg" />
+                                    <img src="assets/images/truck.svg" />
                                     <p class="ml-4">Livraison sous 24h</p>
                                 </div>
                                 <div class="flex mx-3 mb-4  lg:m-0 ">
-                                    <img src="../../public/images/box.svg" />
+                                    <img src="assets/images/box.svg" />
                                     <p class="ml-4">Livraison offerte dès 50€ d'achat</p>
                                 </div>
 
                                 <div class="flex mx-3 mb-4 lg:m-0">
-                                    <img src="../../public/images/gift.svg" />
+                                    <img src=".assets/images/gift.svg" />
                                     <p class="ml-4">Cadeau offert des 90€ d'achat</p>
                                 </div>
                                 <div class="flex mx-3 lg:mx-0 lg:px">
-                                    <img class="" src="../../public/images/circle.svg" />
+                                    <img class="" src="assets/images/circle.svg" />
                                     <p class="ml-4">Retour simple et rapide</p>
                                 </div>
 
@@ -104,7 +104,7 @@ import montreSvgVue from '@/components/montreSvg.vue';
                             <div class="lg:mr-60">
                                 <div class=" flex justify-center ">
                                     <div class="w-40 md:w-60">
-                                        <img src="images/montre_jaune.png" />
+                                        <img src="assets/images/montre_jaune.png" />
                                     </div>
                                 </div>
 
@@ -126,7 +126,7 @@ import montreSvgVue from '@/components/montreSvg.vue';
                                 <div class="mt-12 lg:mt-0">
                                     <div class=" flex justify-center ">
                                         <div class="w-40 md:w-60">
-                                            <img src="images/montre_noir.png" />
+                                            <img src="assets/images/montre_noir.png" />
                                         </div>
                                     </div>
 

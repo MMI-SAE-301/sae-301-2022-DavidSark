@@ -7,7 +7,7 @@ const menuVisible = ref(true);
     <div>
         <!-- Menu responsive -->
 
-        <div class="overflow-y-hidden bg-[url('/images/fond_grain.png')]  h-full w-screen fixed "
+        <div class="overflow-y-hidden bg-[url('assets/images/fond_grain.png')]  h-full w-screen fixed "
             :class="{ hidden: menuVisible }">
             <div class="flex justify-end mt-4">
                 <button v-if="!menuVisible" v-on:click="menuVisible = !menuVisible" class="mx-4">
@@ -47,7 +47,7 @@ const menuVisible = ref(true);
                 <li>
                     <div class="flex justify-center">
                         <router-link class="text-white no-underline hover:text-jaune-0" to="/loginlogoutview">
-                            <img src="/images/user.svg" />
+                            <img src="assets/images/user.svg" />
                         </router-link>
                     </div>
                 </li>

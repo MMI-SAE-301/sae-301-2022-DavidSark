@@ -8,7 +8,7 @@ import ListeView from '@/pages/ListeView.vue';
 
 <template>
     <div>
-        <div class="bg-[url('/images/fond_grain.png')] h-screen ">
+        <div class="bg-[url('/assets/images/fond_grain.png')] h-screen ">
             <headerVue class=""></headerVue>
             <p class="text-white text-center mt-12 lg:text-2xl" v-if="!user">
                 <RouterLink class="border-b-jaune-0 border-b" to="loginlogoutview">Connectez-vous</RouterLink> pour
