@@ -57,22 +57,22 @@ const menuVisible = ref(true);
         <div class="mx-8 ">
             <div class="hidden lg:flex justify-between my-12  ">
                 <div class="flex items-center ">
-                    <RouterLink class=" font-yeseva text-5xl text-white light:text-black" to="/">TiKTaK..</RouterLink>
+                    <RouterLink class=" font-yeseva text-5xl text-white " to="/">TiKTaK..</RouterLink>
                 </div>
 
                 <div class=" hidden text-white lg:flex items-center space-x-6">
                     <router-link class=" no-underline" to="/produitview">
-                        <p class="font-inter hover:border-b-default border-b-white light:text-black ">Nouveauté</p>
+                        <p class="font-inter hover:border-b-default border-b-white">Nouveauté</p>
                     </router-link>
                     <router-link class="text-white no-underline" to="/personnalisationview">
-                        <p class="font-inter hover:border-b-default border-b-white light:text-black">Personnalisation
+                        <p class="font-inter hover:border-b-default border-b-white ">Personnalisation
                         </p>
                     </router-link>
                     <router-link class="text-white shrink-0 no-underline" to="/personnalisationview">
-                        <p class="font-inter hover:border-b-default  border-b-white light:text-black">Vos montres</p>
+                        <p class="font-inter hover:border-b-default  border-b-white ">Vos montres</p>
                     </router-link>
                     <router-link class="text-white  no-underline" to="/produitview">
-                        <p class="font-inter hover:border-b-default border-b-white light:text-black">Promotions</p>
+                        <p class="font-inter hover:border-b-default border-b-white ">Promotions</p>
                     </router-link>
                     <router-link class="text-white  no-underline" to="/loginlogoutview">
                         <svg width="35" height="33" viewBox="0 0 35 33" fill="none" xmlns="http://www.w3.org/2000/svg">

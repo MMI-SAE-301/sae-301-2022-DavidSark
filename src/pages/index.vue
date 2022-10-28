@@ -9,8 +9,7 @@ import footerVue from '@/components/footer.vue';
     <div>
         <div class="bg-noir-0 h-screen ">
 
-            <div
-                class="bg-[url('assets/images/fond_grain.png')] light:bg-[url('../assets/images/fond_blanc.png')] h-screen ">
+            <div class="bg-[url('assets/images/fond_grain.png')] h-screen ">
                 <headerVue class=""></headerVue>
 
 
@@ -19,20 +18,19 @@ import footerVue from '@/components/footer.vue';
                     <div class=" items-center  lg:mr-12  ">
                         <img class="w-520 px-4 lg:px-0" src="../assets/images/mk_accueil.png" />
                     </div>
-                    <div class="lg:flex lg:flex-col lg:items-start  1440:text-xl 1440:w-4/5 light:text-black">
+                    <div class="lg:flex lg:flex-col lg:items-start  1440:text-xl 1440:w-4/5 ">
                         <div class="my-4 lg:ml-8 ">
-                            <p class="text-white light:text-black font-inter text-center text-2xl lg:text-4xl">
+                            <p class="text-white font-inter text-center text-2xl lg:text-4xl">
                                 SmartWatch</p>
                         </div>
 
                         <div class="lg:ml-8 ">
-                            <p class="light:text-black text-white font-inter text-center text-xl lg:text-3xl">Serie P
+                            <p class=" text-white font-inter text-center text-xl lg:text-3xl">Serie P
                             </p>
                         </div>
 
                         <div class="mx-8 mt-4 lg:w-9/12">
-                            <p
-                                class="light:text-black text-white shrink-0 inline-block text-sm lg:text-base font-inter ">
+                            <p class=" text-white shrink-0 inline-block text-sm lg:text-base font-inter ">
                                 Découvrez la nouvelle gamme de montre
                                 connecté
                                 SmartWatch Serie P de TiKTaK..
@@ -42,7 +40,7 @@ import footerVue from '@/components/footer.vue';
 
                         <div class="text-center mt-6">
                             <button
-                                class=" lg:text-lg lg:ml-8 light:bg-black light:text-white text-black font-inter text-sm bg-white py-1 px-8 rounded-full hover:bg-jaune-0">
+                                class=" lg:text-lg lg:ml-8 text-black font-inter text-sm bg-white py-1 px-8 rounded-full hover:bg-jaune-0">
                                 <RouterLink to="personnalisationview">Personnaliser</RouterLink>
                             </button>
                         </div>
@@ -51,7 +49,7 @@ import footerVue from '@/components/footer.vue';
 
 
                 <div class="flex justify-center">
-                    <div class="my-20 w-4/5 border-b-default light:border-black border-white"></div>
+                    <div class="my-20 w-4/5 border-b-default border-white"></div>
                 </div>
 
 

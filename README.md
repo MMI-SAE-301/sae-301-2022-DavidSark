@@ -21,7 +21,7 @@ Vous avez rendu à la racine du projet :
 ## R312 | Intégrer ([Pierre Pracht : AC 2401](https://moodle.univ-fcomte.fr/mod/assign/view.php?id=612668))
 
 Pour les liens :
-[vers des fichiers](https://github.com/MMI-SAE-301/sae-301-2022-DavidSark.git) ou page d'un commit sur 
+[vers des fichiers](https://github.com/MMI-SAE-301/sae-301-2022-DavidSark) ou page d'un commit sur 
 
 Noté sur 40.
 
